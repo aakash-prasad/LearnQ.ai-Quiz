@@ -29,6 +29,7 @@ app.set('view engine', 'handlebars')
 
 
 //MIDDLEWEARS:
+app.use(express.json())
 app.use('/', require('./routes/index'))
 
 //Listen server
